@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fontawesome-free-6.1.1-web/fontawesome-free-6.1.1-web/css/all.min.css">
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/js/bootstrap.min.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/fontawesome.min.css">
+    <title>Elementor</title>
+</head>
+<body>
+    
+<div class="container">
+    <button id="elementor" class="btn d-none"><i class="fas fa-arrow-right"></i></button>
+    <div class="row">
+        <div class="col-md-4" id="hide">
+            <div class="card ">
+                <div class="card-header d-flex justify-content-between bg-warning ">
+                    <button id="btn" class="btn text-white"><i class=" fa-solid fa-bars"></i></button>
+                    <h2 id="head" class="text-white" >Text-Builder</h2>
+                    <button id="btn-2" class="btn text-white"><i class=" fa-solid fa-bars"></i></button>
+
+                </div>
+                <div class="card-body ">
+                    <div id="card_body"  class="row">
+                        <div id="la_st_ad" class="row">
+                            <div class="col-md-2 d-flex justify-content-between">
+                                <div class="m-1 btn btn-light">
+                                    <h4 id="layout">Layout</h4>
+                                </div>
+                                <div class="m-1  btn btn-light">
+                                    <h4 id="style">Style</h4>
+                                </div>
+                                <div class="m-1  btn btn-light">
+                                    <h4 id="advance">Advance</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">       
+                            
+                            <div class="layout d-none">
+
+
+                        <div class="row justify-content-center">
+                        <div  id ="heading"class=" icon col-lg-3 text-center m-1 ">
+                                <i class="fa fa-header"></i>
+                                <p>Headeing</p>
+                        </div>
+                        <div id ="input" class="icon col-lg-3 text-center m-1 ">
+                            <i class="fa-solid fa-input-text"></i>
+                            <p>input </p>
+                        </div>
+                        <div id ="link" class="icon col-lg-3 text-center m-1 ">
+                            <i class="fa-solid fa-link"></i>    
+                                                   <p>Link</p>
+                        </div>
+                        <div id ="para" class="icon col-lg-3 text-center m-1 ">
+                            <i class="fa-duotone fa-p"></i>
+                            <p>Paragraph</p>
+                        </div>
+
+                    
+                    </div>
+
+
+                </div>
+                   <!-- style section   -->
+
+                   <div class="style d-none">
+                   <div class="row justify-content-center">
+                    <div id ="fonts" class="icon col-lg-3 text-center m-1 ">
+                        <i class="fa-solid fa-font"></i>
+                        <p>Fonts</p>
+                    </div>
+                    <div id ="align" class="icon col-lg-3 text-center m-1 ">
+                        <i class="fa-solid fa-align-justify"></i>
+                        <p> Align</p>
+                    </div>
+
+                    <div id ="font_case" class="icon col-lg-3 text-center m-1 ">
+                        <i class="fa-solid fa-font-case"></i>
+                         <p>Font Case</p>
+                    </div>
+                </div>
+<!-- style section 2 -->
+                    <div class="row justify-content-center">
+                        <div id ="font_weight" class="icon col-lg-3 text-center m-1 ">
+                            <i class="fa-solid fa-bold"></i>
+                            <p>Font Weight</p>
+                        </div>
+                        <div id ="text_size" class="icon col-lg-3 text-center m-1 ">
+                            <i class="fa-regular fa-text-size"></i>
+                             <p>Text Size</p>
+                        </div>
+                        <div id ="color" class="icon col-lg-3 text-center m-1 ">
+                            <i class="fa fa-palette"></i>
+                            <p>Color</p>
+                        </div>
+                      
+                    </div>
+                </div>
+
+   <!-- section advance                   -->
+                 <div class="advance_div d-none">
+                    <div class="row justify-content-center">
+                        <div id ="margin" class="icon col-lg-3 text-center m-1 ">
+                            <i class=""></i>
+                            <p>Margin </p>
+                        </div>
+                        <div id ="padding" class="icon col-lg-3 text-center m-1 ">
+                            <i class="fa-duotone fa-distribute-spacing-horizontal"></i>
+                            <p>Padding</p>
+                        </div>
+                        <div id ="font_style" class="icon col-lg-3 text-center m-1 ">
+                            <i class="fa-solid fa-italic"></i>
+                           <p>Font Style</p>
+                        </div>
+                        
+                  
+                </div>
+                    <div class="row justify-content-center">
+                        <div id ="stopwatch" class="icon col-lg-3 text-center m-1 ">
+                            <i class="fa-solid fa-stopwatch"></i>
+                            <p>Stopwatch</p>
+                        </div>
+                        <div id ="Calculator" class="icon col-lg-3 text-center m-1 ">
+                            <i class="fa-solid fa-calculator"></i>
+                           <p>Calculator</p>
+                        </div>
+                        <div id ="timer" class="icon col-lg-3 text-center m-1 ">
+                            <i class="fa fa-timer"></i>
+                            <p>Timer</p>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            
+                    <div class="row">
+                        <div id="display" class="m-1">
+                           <form action="">
+                               
+                               <div id="text_div" class="m-1 d-none">
+                                   <label for="" class="d-flex justify-content-between">Text <button class="  alert alert-primary" data-bs-dismiss ="alert"></button></label>
+                                   <input  id="Text_type" class="form-control" type="text">
+                               </div>
+                               <div id="color_div" class="m-1 d-none">
+                                   <label class="d-flex justify-content-between" for="">color<button class=" alert alert-primary" data-bs-dismiss ="alert"></button></label>
+                                   <input id="color_design" class="form-control" type="color">
+                               </div>
+                               <div id="font_size_div" class="m-1 d-none">
+                                   <label class="d-flex justify-content-between" for="">Font Size<button class=" alert alert-primary" data-bs-dismiss ="alert"></button></label>
+                                   <input  id="font_size_design" class="form-control" min="16" max="100" type="number">
+                               </div>
+                               <div id="font_wight_div" class="m-1 d-none">
+                                   <label class="d-flex justify-content-between" for="">Font Weight<button class=" alert alert-primary" data-bs-dismiss ="alert"></button></label>
+                                   <input id="font_weight_design" class="form-control" type="number" min="100" step="100" max="900">
+                               </div>
+                               <div id="padding_div" class="m-1 d-none">
+                                   <label class="d-flex justify-content-between" for="">Padding<button class=" alert alert-primary" data-bs-dismiss ="alert"></button></label>
+                                   <input id="padding_design" class="form-control" type="number">
+                               </div>
+                               <div id="margin_div" class="m-1 d-none">
+                                   <label class="d-flex justify-content-between" for="">Margin<button class=" alert alert-primary" data-bs-dismiss ="alert"></button></label>
+                                   <input id="margin_design" class="form-control" type="number">
+                               </div>
+                               <div id="font_case_div" class="m-1 d-none">
+                                   <label class="d-flex justify-content-between" for="">Font Case<button class=" alert alert-primary" data-bs-dismiss ="alert"></button></label>
+                                   <select name="" id="font_case_design">
+                                       <option value="uppercase">Uppercase</option>
+                                       <option value="lowercase">Lowercase</option>
+                                       <option selected value="capitalize">Capitalize</option>
+                                   </select>
+                               </div>
+                               <div id="font_family_div" class="m-1 d-none">
+                                   <label class="d-flex justify-content-between" for="">Font Family<button class=" alert alert-primary" data-bs-dismiss ="alert"></button></label>
+                                   <select name="" id="font_family_design">
+                                       <option selected value="roboto">Roboto</option>
+                                       <option value="lato">Lato</option>
+                                       <option value="poppins">Poppins</option>
+                                   </select>
+                               </div>
+                               <div id="font_style_div" class="m-1 d-none">
+                                   <label class="d-flex justify-content-between" for="">Font Style<button class=" alert alert-primary" data-bs-dismiss ="alert"></button></label>
+                                   <select name="" id="font_style_design">
+                                       <option value="italic">Italic</option>
+                                       <option value="oblique">Oblique</option>
+                                       <option selected value="normal">normal</option>
+                                   </select>
+                               </div>
+                               <div id="align_div" class="m-1 d-none">
+                                   <label class="d-flex justify-content-between" for="">Align<button class="alert alert-primary" data-bs-dismiss ="alert"></button></label>
+                                   <!-- <select name="" id="">
+                                       <option value="left"><i class="fa-solid fa-align-left"></i></option>
+                                       <option value="center"><i class="fa fa-align-center" aria-hidden="true"></i></option>
+                                       <option value="right"><i class="fa-solid fa-align-right"></i></option>
+                                   </select> -->
+                                   <div class="row d-flex justify-content-between form-control">
+                                       <div class=" col-md-4"><button value="left" class=" align_design btn btn-warning"><i class=" fa-solid fa-align-left" ></i></button></div>
+                                       <div class="col-md-4"><button value="center" class=" align_design btn btn-warning"><i class=" fa fa-align-center" aria-hidden="true" ></i></button></div>
+                                       <div class="col-md-4"><button value="right" class=" align_design btn btn-warning"><i class=" fa-solid fa-align-right" ></i></button></div>
+                                   </div>
+                                   
+                               </div>
+                           </form>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-12  d-none" id="btn-save">
+                        <div class="card-header bg-warning">
+                            <button class="text-white btn " >Save</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+
+
+        <!-- result output -->
+        <div class="col-md-8">
+            
+            <div class="row">
+                <div  class="col-md-12 m-5 text-center">
+                    <h1 id="output">Your Text is Here</h1>
+                </div>
+            </div>
+
+
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="tag" class="m-2">
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="row text-center">
+            <div id="stopwatch_div" class="tag col-md-6 text-center d-none">
+                <div class="card">
+                    <div class="card-header">
+                        <h1>StopWatch</h1>
+                    </div>
+                    <div class="card-body">
+                        <h1 id="time_output">00:00:00:00</h1>
+                        <div id="time_start" class="btn btn-primary">Start</div>
+                        <div id="time_stop" class="btn btn-danger">Stop</div>
+                        <div id="time_reset" class="btn btn-warning">Reset</div>
+                    </div>
+                </div>
+
+            </div>
+           </div>
+
+
+
+           <!-- timer  -->
+           <div  class="row ">
+               <div id="timer_div" class="col-md-5 d-none">
+                   <div class="card">
+                       <div class="card-header bg-success">
+                           <h1 class="text-center text-white">Timer</h1>
+                       </div>
+                       <div class="card-body text-center">
+                           <h1 id="timer_output">0</h1>
+                           <button id="timer_start" class="btn btn-primary">Sart</button>
+                           <button id="timer_back" class="btn btn-danger">Back</button>
+                           <button id="timer_reset" class="btn btn-warning">Reset</button>
+                           <div class="m-3">
+                               <audio id="audio_1" src="music/mixkit-classic-click-1117.wav"></audio>
+                               <audio id="audio_2" src="music/mixkit-fast-double-click-on-mouse-275.wav"></audio>
+                               <audio id="audio_3" src="music/N56BNFY-click.mp3"></audio>
+                               <audio id="audio_4" src="music/mixkit-arcade-game-jump-coin-216.wav"></audio>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+
+           <div class="row">
+               <div id ="cal_div" class="col-md-5 d-none">
+                   <div class="card">
+                       <div class="card-header">
+                           <h1>Calculator</h1>
+                       </div>
+                       <div class="card-body">
+                           <h1 class="p-3" id="cal_output"></h1>
+                           <div class="row">
+                               <div class="col-sm-3"><button value="MC" id="mc" class="btn btn-dark text-white p-2 click_value">MC</button></div>
+                               <div class="col-sm-3"><button value="M+" id="m_plus" class="btn btn-dark text-white p-2 click_value">M+</button></div>
+                               <div class="col-sm-3"><button value="/" id="divided" class="btn btn-dark text-white p-2 click_value">/</button></div>
+                               <div class="col-sm-3"><button value="*" id="multi" class="btn btn-dark text-white p-2 click_value">*</button></div>
+                           </div>
+                           <div class="row">
+                               <div class="col-sm-3"><button value="7" id="seven" class="btn btn-dark text-white p-2 click_value">7</button></div>
+                               <div class="col-sm-3"><button value="8" id="eight" class="btn btn-dark text-white p-2 click_value">8</button></div>
+                               <div class="col-sm-3"><button value="9" id="nine" class="btn btn-dark text-white p-2 click_value">9</button></div>
+                               <div class="col-sm-3"><button value="-" id="minus" class="btn btn-dark text-white p-2 click_value">-</button></div>
+                           </div>
+                           <div class="row">
+                               <div class="col-sm-3"><button value="6" id="six" class="btn btn-dark text-white p-2 click_value">4</button></div>
+                               <div class="col-sm-3"><button value="5" id="five" class="btn btn-dark text-white p-2 click_value">5</button></div>
+                               <div class="col-sm-3"><button value="4" id="four" class="btn btn-dark text-white p-2 click_value">6</button></div>
+                               <div class="col-sm-3"><button value="+" id="plus" class="btn btn-dark text-white p-2 click_value">+</button></div>
+                           </div>
+                           <div class="row">
+                               <div class="col-sm-3"><button value="1" id="one" class="btn btn-dark text-white p-2 click_value">1</button></div>
+                               <div class="col-sm-3"><button value="2" id="two" class="btn btn-dark text-white p-2 click_value">2</button></div>
+                               <div class="col-sm-3"><button value="3" id="three" class="btn btn-dark text-white p-2 click_value">3</button></div>
+                           </div>
+                           <div class="row">
+                               <div class="col-sm-4"><button value="0" id="zero" class="btn btn-dark text-white p-2 click_value">0</button></div>
+                               <div class="col-sm-4"><button value="." id="decimal" class="btn btn-dark text-white p-2 click_value">.</button></div>
+                               <div class="col-sm-4"><button value="=" id="equal" class="btn btn-dark text-white p-2 click_value">=</button></div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+    <script src="function.js"></script>
+    <script src="app.js"></script>
+    
+</body>
+</html>
